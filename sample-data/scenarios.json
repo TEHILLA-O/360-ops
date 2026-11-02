@@ -1,0 +1,16 @@
+{
+  "artifactType": "demonstration-catalogue",
+  "organisation": "Northstar Operations Group",
+  "timezone": "Europe/London",
+  "identity": "Synthetic .example accounts. Not a production directory.",
+  "approvalAuthority": "Seeded decisions use local_simulation. They are not Microsoft Approvals records.",
+  "scenarios": [
+    {"id": "A", "caseNumber": "NS-2401", "title": "Finance folder access request", "expectStatus": "awaiting_fulfilment", "expectApproval": "approved"},
+    {"id": "B", "caseNumber": "NS-2408", "title": "Excel add-in crash", "expectStatus": "in_progress", "expectApproval": "not_required"},
+    {"id": "C", "caseNumber": "NS-2412", "title": "Book onboarding session", "expectCalendarEvent": null},
+    {"id": "D", "caseNumber": "NS-2388", "title": "Help", "expectStatus": "awaiting_information"},
+    {"id": "E", "caseNumber": "NS-2310", "title": "HVAC noise on level 4", "expectSla": "breached", "expectEscalations": 1},
+    {"id": "F", "caseNumber": "NS-2419", "title": "Schedule equipment collection", "expectResolved": false, "expectGraphError": true},
+    {"id": "G", "caseNumber": "NS-2394", "title": "CRM export access request", "expectStatus": "rejected", "expectFulfilmentTeam": null}
+  ]
+}
